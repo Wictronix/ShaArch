@@ -11634,7 +11634,7 @@ body {
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
-    border-width: 0.25rem;
+    border-width: 0.10rem;
     width: 30%;
   }
 }
