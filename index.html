@@ -28,7 +28,8 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#our-team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -106,81 +107,101 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+
+        <!-- Projects-->
+        <section class="our-team-section bg-light" id="our-team">
+            <div class="container px-4 px-lg-5 our-team-container">
+                <!-- Project One Row-->
+                <div class="col">
+                    <h2 class="mb-4" style="text-align: center;">Our Team</h2>
+                </div>
+                <div class="team-members">
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Abhyudaya Pandey</h5>
+                        <h5 class="card-title mb-3 text-center">Head Architect</h5>
+                        <p class="card-text">"Building is not my carrer, it my passion."<br> Worked on over 100+ projects and have a great customer satisfaction.</p>
+                        </div>
+                    </div>
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Viraj Chaudhary</h5>
+                        <h5 class="card-title mb-3 text-center">Interior Designer</h5>
+                        <p class="card-text">"Modern problem requires, modern solutions."<br> I have over 10+ years experience in interior designing.</p>
+                        </div>
+                    </div>
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Sneha Daripa</h5>
+                        <h5 class="card-title mb-3 text-center">Design Expert</h5>
+                        <p class="card-text">"Every great design begins, with an even better story."<br>I have great expertise on design analysis and worked over 50+ projects.</p>
+                        </div>
+                    </div>
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Suyash Dutta</h5>
+                        <h5 class="card-title mb-3 text-center">Project Lead</h5>
+                        <p class="card-text">"The problem is not to find the answer, it's to face the answer."<br> I have great team building capabilities and have worked over 40+ projects.</p>
+                        </div>
+                    </div>
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Smriti Kumari</h5>
+                        <h5 class="card-title mb-3 text-center">Business Analyst</h5>
+                        <p class="card-text">"Everyone has the key, its just a matter of using it."<br> Building customer relationships is my forte and I have 10+ years of experience in this field.</p>
+                        </div>
+                    </div>
+                    <div class="card team-card" style="width: 18rem;">
+                        <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title mb-3 text-center">Rushali Arora</h5>
+                        <h5 class="card-title mb-3 text-center">Interior Designer</h5>
+                        <p class="card-text">"Recognizing the need, is the primary condition of design."<br> I am a newbie, but have worked over great projects, mentioned in my portfolio.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section bg-black" id="contact">
             <div class="container px-4 px-lg-5">
+                <div class="col">
+                    <h2 class="text-white mb-4" style="text-align: center;">Contact Us</h2>
+                </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
+                        <div class="card py-4 h-100 contact-card">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black">A-51, Street 6, Rajender Nagar, Surat - 335009, Gujarat</div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
+                        <div class="card py-4 h-100 contact-card">
                             <div class="card-body text-center">
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black"><a href="#!" style="color: black;">architecturefirm@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
+                        <div class="card py-4 h-100 contact-card">
                             <div class="card-body text-center">
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Phone</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
+                                <div class="small text-black">+91 46715-73926</div>
                             </div>
                         </div>
                     </div>
@@ -188,7 +209,7 @@
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </section>

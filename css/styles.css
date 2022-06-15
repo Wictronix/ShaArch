@@ -9961,11 +9961,6 @@ textarea.form-control-lg {
     padding-left: 1.5rem !important;
   }
 
-  .px-lg-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
-  }
-
   .py-lg-0 {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -11697,4 +11692,37 @@ body {
 
 .footer {
   padding: 5rem 0;
+}
+.contact-card{
+  transition: 0.5s;
+  background: white;
+}
+.contact-card:hover{
+  transform: scale(1.08);
+  background: #dedede;
+}
+.our-team-section{
+  padding: 0 0 10rem 0;
+}
+.team-img{
+  width: 120px;
+  margin: auto;
+}
+.team-members{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 1150px;
+  margin: auto;
+}
+.team-card{
+  background: #dedede;
+  border-radius: 20px;
+  margin: 1rem 0;
+  transition: 0.4s;
+}
+.team-card:hover{
+  transform: translateY(-15px);
+  background: #000;
+  color: #fff;
 }
