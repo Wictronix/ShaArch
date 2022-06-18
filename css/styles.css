@@ -3875,7 +3875,8 @@ textarea.form-control-lg {
 .nw{
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 130px;
+  padding-bottom: 60px;
  
 }
 .nw a{
