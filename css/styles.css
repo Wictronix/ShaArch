@@ -3872,7 +3872,19 @@ textarea.form-control-lg {
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
+.nw{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+ 
+}
+.nw a{
+  background-color: rgb(184, 181, 181);
 
+}
+.nw :hover{
+  background-color: #000;
+}
 .dropdown-item {
   display: block;
   width: 100%;
@@ -3974,6 +3986,7 @@ textarea.form-control-lg {
 .btn-group-vertical > .btn.active {
   z-index: 1;
 }
+
 
 .btn-toolbar {
   display: flex;
@@ -11627,6 +11640,11 @@ body {
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
+  
+}
+.projects-section .project-text.btn-dark:hover {
+  padding: 3rem;
+  font-size: 90%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
@@ -11637,7 +11655,7 @@ body {
     border-width: 0.10rem;
     width: 30%;
   }
-}
+} 
 
 .signup-section {
   padding: 10rem 0;
