@@ -20,44 +20,31 @@
   border-bottom: 3px solid red;
   text-decoration: none;
 }
-
-.testabout{
-  background-color: rgba(90, 86, 86, 0.082);
-}
 .masthead .container .b1:hover{
   transition: 1.5s;
   border:2px solid red;
   width:113px;
   border-bottom: 3px solid wheat;
 }
+.b2{
+  border-radius: 10px;
+  color:black;
+  background: transparent;
+  padding: 15px; 
+  border:2px solid black;
+  width:113px;
+  border-bottom: 3px solid red;
+  text-decoration: none;
+}
+.b2:hover{
+  transition: 1.5s;
+  border:2px solid red;
+  width:113px;
+  border-bottom: 3px solid black;
+}
 .masthead .container .logo{
   color:red;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -136,7 +123,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: rgba(0,0,0,0.8);
+  /* background-color: rgba(0,0,0,0.8); */
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -3920,20 +3907,20 @@ textarea.form-control-lg {
   overflow: hidden;
   border-top: 1px solid rgba(0, 0, 0, 0.15);
 }
-.nw{
+/* .nw{
   display: flex;
   justify-content: center;
   padding-top: 130px;
   padding-bottom: 60px;
- 
 }
 .nw a{
-  background-color: rgb(184, 181, 181);
-
+  background-color: white;
+  color: #000;
+  border: 1px solid black;
 }
 .nw :hover{
   background-color: #000;
-}
+} */
 .dropdown-item {
   display: block;
   width: 100%;
@@ -11906,5 +11893,17 @@ body {
 @media (max-width: 702px) {
   .wrapper .box{
     width: 100%;
+  }
+}
+.about-section-container{
+  display: flex;
+  align-items: center;
+}
+.about-section{
+  padding-bottom: 5rem;
+}
+@media (max-width: 992px) {
+  .about-section-container{
+    flex-wrap: wrap;
   }
 }
