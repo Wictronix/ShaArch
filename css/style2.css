@@ -183,3 +183,7 @@ button{
   font-size: 15px;
   cursor:default;
 }
+.card-link{
+  color: white;
+  text-decoration: none;
+}
