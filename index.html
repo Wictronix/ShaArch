@@ -6,6 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>ShaArch</title>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -17,8 +18,10 @@
     </head>
     <body id="page-top">
 
-
-
+<!-- Loading square for squar.red network -->
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -47,14 +50,13 @@
                         <h1 class="mx-auto my-0 text-capitalize">Sha<span class="desg"></span></h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-3">We design <span class="auto" style="color: red;"></span></h2>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">One of the great beauties of architecture is that each time, it is like life starting all over again.</h2>
-                        <a class="b1" href="#about">Get Started</a>
                     </div>
                 </div>
             </div>
         </header>
         <!-- About-->
         <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5 about-section-container">
+            <div class="container px-4 px-lg-5 about-section-container" data-aos="flip-left">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">About us </h2>
@@ -70,12 +72,17 @@
 
             </div>
         </section>
+
+
+
         <!-- Projects-->
         <section class="projects-section testabout bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
+            <div class="container px-4 px-lg-0" data-aos="flip-left">
+                <h1 class="heading">Projects</h1>
                 <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="./assets/img/clever-visuals-JORQFtTy-_g-unsplash (1).jpg" alt="..." /></div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center" data-aos="flip-left">
+                    <div class="col-xl-8 col-lg-7">
+                    <img class="img-fluid mb-3 mb-lg-0"  src="./assets/img/clever-visuals-JORQFtTy-_g-unsplash (1).jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>30 St. marry Axe</h4>
@@ -84,8 +91,9 @@
                     </div>
                 </div>
                 <!-- Project One Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/kayle-kaupanger-_JOupCumElE-unsplash.jpg" alt="..." /></div>
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="flip-left">
+                    <div class="col-lg-6">
+                    <img class="img-fluid" src="assets/img/kayle-kaupanger-_JOupCumElE-unsplash.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -99,7 +107,7 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center" data-aos="flip-left">
                     <div class="col-lg-6"><img class="img-fluid" src="./assets/img/marc-olivier-jodoin--HIiNFXcbtQ-unsplash.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
@@ -115,15 +123,20 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center" style="padding-top: 4rem;">
+            <div class="text-center" style="padding-top: 4rem;" data-aos="flip-left">
                 <a class="b2" href="./project.html">View More</a>
             </div>
-
         </section>
+
+
+
+
+
+
 
         <!-- Testimonials-->
         <section class="our-team-section bg-light" id="Testimonials">
-            <div class="container px-4 px-lg-5 our-team-container">
+            <div class="container px-4 px-lg-5 our-team-container" data-aos="flip-left">
                 <h1 class="heading">Testimonials</h1>
                 <div class="wrapper">
                     <div class="box">
@@ -141,12 +154,12 @@
                             <i class="far fa-star"></i>
                           </div>
                         </div>
-                        <div class="image">
+                        <div class="image" data-aos="flip-left">
                           <img src="./assets/img/profile-male.png" alt="">
                         </div>
                       </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="flip-left">
                       <i class="fas fa-quote-left quote"></i>
                       <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
                       <div class="content">
@@ -161,12 +174,12 @@
                             <i class="fas fa-star"></i>
                           </div>
                         </div>
-                        <div class="image">
+                        <div class="image" data-aos="flip-left">
                           <img src="./assets/img/profile-female.svg" alt="">
                         </div>
                       </div>
                     </div>
-                    <div class="box">
+                    <div class="box" data-aos="flip-left">
                       <i class="fas fa-quote-left  quote"></i>
                       <p>Lorem aliasry ipsum dolor sits ametans, consectetur adipisicing elitits. Expedita reiciendis itaque placeat thuratu, quasi yiuos repellendus repudiandae deleniti ideas fuga molestiae, alias.</p>
                       <div class="content">
@@ -192,13 +205,13 @@
 
         <!-- Our Team-->
         <section class="our-team-section bg-light" id="our-team">
-            <div class="container px-4 px-lg-5 our-team-container">
+            <div class="container px-4 px-lg-5 our-team-container" data-aos="flip-left">
                 <!-- Project One Row-->
                 <div class="col">
                     <h2 class="mb-4" style="text-align: center;">Our Team</h2>
                 </div>
                 <div class="team-members">
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Abhyudaya Pandey</h5>
@@ -206,7 +219,7 @@
                         <p class="card-text">"Building is not my carrer, it my passion."<br> Worked on over 100+ projects and have a great customer satisfaction.</p>
                         </div>
                     </div>
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Viraj Chaudhary</h5>
@@ -214,7 +227,7 @@
                         <p class="card-text">"Modern problem requires, modern solutions."<br> I have over 10+ years experience in interior designing.</p>
                         </div>
                     </div>
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Sneha Daripa</h5>
@@ -222,7 +235,7 @@
                         <p class="card-text">"Every great design begins, with an even better story."<br>I have great expertise on design analysis and worked over 50+ projects.</p>
                         </div>
                     </div>
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-male.png" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Suyash Dutta</h5>
@@ -230,7 +243,7 @@
                         <p class="card-text">"The problem is not to find the answer, it's to face the answer."<br> I have great team building capabilities and have worked over 40+ projects.</p>
                         </div>
                     </div>
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Smriti Kumari</h5>
@@ -238,7 +251,7 @@
                         <p class="card-text">"Everyone has the key, its just a matter of using it."<br> Building customer relationships is my forte and I have 10+ years of experience in this field.</p>
                         </div>
                     </div>
-                    <div class="card team-card" style="width: 18rem;">
+                    <div class="card team-card" style="width: 18rem;" data-aos="flip-left">
                         <img src="./assets/img/profile-female.svg" class="card-img-top mt-4 mb-3 team-img" alt="...">
                         <div class="card-body">
                         <h5 class="card-title mb-3 text-center">Rushali Arora</h5>
@@ -249,6 +262,7 @@
                 </div>
             </div>
         </section>
+
 
         <!-- Contact Section -->
 
@@ -446,6 +460,17 @@
                 backSpeed:150,
                 loop:true
             })
+        </script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset:50
+          });
+        </script>
+        <script>
+            $(window).on("load",function(){
+                $(".loader-wrapper").fadeOut("slow");
+            });
         </script>
     </body>
 </html>
