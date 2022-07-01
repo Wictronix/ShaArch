@@ -11694,7 +11694,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.3rem solid red;
   }
 }
 .projects-section .project-text {
@@ -11771,10 +11771,6 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
-}
-
-.footer {
-  padding: 5rem 0;
 }
 .contact-card{
   transition: 0.5s;
@@ -11905,5 +11901,103 @@ body {
 @media (max-width: 992px) {
   .about-section-container{
     flex-wrap: wrap;
+  }
+}
+.ftco-section{
+  margin-bottom: 8rem;
+}
+.info-wrap{
+  background-color: #dedede;
+}
+.sm-btn{
+  margin: 1rem 0 0 0;
+}
+.sm-button{
+  background-color: black;
+  color: white;
+}
+.sm-button:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: 700;
+}
+.sm-button:focus{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  font-weight: 700;
+}
+.wt-txt{
+  margin: 0 0 2rem 0.5rem;
+}
+.wt-txt-1{
+  margin: 0 0 2rem 1rem;
+}
+.main-footer{
+  margin: 0 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-footer{
+  font-size: 42px;
+}
+.ql-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0.5rem;
+}
+.sm-list{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0.5rem;
+}
+.f-head{
+  color: white;
+  font-size: 20px;
+}
+.f-link{
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+  padding: 0.4rem 0;
+}
+.f-link:hover{
+  color: white;
+  opacity: 1;
+}
+footer{
+  padding: 5rem 0 3rem 0;
+}
+.last-line{
+  padding: 3rem 0 0 0;
+}
+@media (max-width: 1100px) {
+  .main-footer{
+    display: block;
+    margin: 0 3rem;
+  }
+  .logo{
+    text-align: center;
+  }
+  .quick-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .social{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .contact-f{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
   }
 }
